@@ -1,6 +1,46 @@
+.inc {
+  color: white;
+  background-color: green;
+  width: 100px;
+  height: 35px;
+  border: none;
+  margin-right: 10px; 
+  margin-top: 40px;
+  
+}
+
+.inc:hover{
+  opacity: 0.7;
+}
+
+.dec {
+  color: black;
+  background-color: aqua;
+  width: 100px;
+  height: 35px;
+  border: none;
+  margin-top: 40px;
+}
+
+.dec:hover {
+  opacity: 0.7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #c70039, #945567);
+  color: white;
+}
+.background {
+  line-height: 90px;
+}
+
 .App {
   text-align: center;
+  margin-top: 80px;
 }
+
 
 .App-logo {
   height: 40vmin;
